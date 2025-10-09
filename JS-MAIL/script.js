@@ -10,3 +10,12 @@ Si può fare? Certo che si basta ragionare un po’.
 Nota: 
 Non è necessario provvedere alla validazione delle email
 */
+
+//Creo una lista di email di invitati ad una festa.
+const emails = [
+    'mario.rossi@example.com',
+    'mario.bianchi@example.com',
+    'mario.verdi@example.com',
+    'mario.rossini@example.com',
+    'mario.verdini@example.com'
+] 
