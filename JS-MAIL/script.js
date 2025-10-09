@@ -21,3 +21,16 @@ const emails = [
 ] 
 //Chiedo all’utente la sua email
 const userEmail = prompt('Inserisci la tua e-mail:')
+
+//controllo che sia nella lista di chi può accedere,
+//stampo un messaggio appropriato sull’esito del controllo, utilizzando un ciclo for
+for (let i = 0; i < emails.length; i++) {
+    const thisEmail = emails[i];
+
+    if (thisEmail === userEmail) {
+        document.body.innerHTML = 'E-mail trovata'
+        break
+    } else {
+        document.body.innerHTML = 'E-mail non trovata'
+    }
+}
