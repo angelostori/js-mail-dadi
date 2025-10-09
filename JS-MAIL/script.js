@@ -19,3 +19,5 @@ const emails = [
     'mario.rossini@example.com',
     'mario.verdini@example.com'
 ] 
+//Chiedo all’utente la sua email
+const userEmail = prompt('Inserisci la tua e-mail:')
